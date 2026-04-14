@@ -1,22 +1,52 @@
+import Image from "next/image";
 import React from "react";
-
+import InsImg from "@/assets/facebook.png";
+import FbImg from "@/assets/instagram.png";
+import xImg from "@/assets/twitter.png";
+import LogoImg from "@/assets/logo-xl.png";
 const Footer = () => {
   return (
     <div>
-      <footer className="footer footer-horizontal footer-center bg-primary text-primary-content p-10">
+      <footer className="footer footer-horizontal footer-center bg-[#244D3F] text-primary-content p-10">
         <aside>
-            <h2 className="text-5xl font-bold">KeenKeeper</h2>
+              <Image
+                       src={  LogoImg }
+                       alt="keen keeper"
+                       width={300}
+                       height={300}
+                     
+                     />
           <p className="">
             Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.
           </p>
         </aside>
-        <nav>
+        <nav className="space-y-1">
           <h2 className="text-lg font-bold">Social Links</h2>
-          <div className="grid grid-flow-col gap-4">
-            
+          <div className="grid grid-flow-col gap-3">
+             <Image
+                      src={ InsImg }
+                      alt="keen keeper"
+                      width={35}
+                      height={25}
+                    
+            />
+             <Image
+                      src={  FbImg }
+                      alt="keen keeper"
+                      width={35}
+                      height={25}
+                    
+            />
+             <Image
+                      src={  xImg }
+                      alt="keen keeper"
+                      width={35}
+                      height={25}
+                    
+            />
           </div>
         </nav>
-         <div className="flex justify-between gap-60 border-t pt-10 border-gray-600">
+         <div className=" grid grid-cols-1 md:grid-cols-2  justify-between gap-5 md:gap-60 border-t pt-10 border-gray-600">
             <div>
                 <p>© 2026 KeenKeeper. All rights reserved.</p>
             </div>
