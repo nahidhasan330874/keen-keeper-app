@@ -1,10 +1,11 @@
  
+import Banner from "@/components/homepage/Banner";
 import Image from "next/image";
 
 export default function Home() {
   return (
    <div>
-       <h2> This is a friends group</h2>
+       <Banner> </Banner>
 
    </div>
   );

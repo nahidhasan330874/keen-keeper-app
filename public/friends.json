@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Rivera",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "alex.rivera@email.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "hiking buddy"],
+    "bio": "Met during freshman year at UCLA. We used to go on weekend hiking trips to the Sierras.",
+    "goal": 14,
+    "next_due_date": "2025-07-02"
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "priya.sharma92@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["work", "lunch friend"],
+    "bio": "Colleague from my first job at Google. We bonded over bad cafeteria food and shared project deadlines.",
+    "goal": 10,
+    "next_due_date": "2025-07-09"
+  },
+  {
+    "id": 3,
+    "name": "Marcus Chen",
+    "picture": "https://randomuser.me/api/portraits/men/67.jpg",
+    "email": "marcus.chen@protonmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["gym", "childhood"],
+    "bio": "Known each other since elementary school in Seattle. Still try to spot each other at the gym every week.",
+    "goal": 21,
+    "next_due_date": "2025-07-02"
+  },
+  {
+    "id": 4,
+    "name": "Sophie Laurent",
+    "picture": "https://randomuser.me/api/portraits/women/22.jpg",
+    "email": "sophie.laurent@outlook.fr",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["travel", "study abroad"],
+    "bio": "Met while studying abroad in Barcelona. We explored every hidden tapas bar together.",
+    "goal": 7,
+    "next_due_date": "2025-07-09"
+  },
+  {
+    "id": 5,
+    "name": "Jamal Washington",
+    "picture": "https://randomuser.me/api/portraits/men/45.jpg",
+    "email": "jamal.washington@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["music", "band"],
+    "bio": "Played in the same jazz band in college. He's an incredible sax player and we still jam occasionally.",
+    "goal": 14,
+    "next_due_date": "2025-07-08"
+  },
+  {
+    "id": 6,
+    "name": "Elena Petrova",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "elena.petrova@icloud.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["neighbor", "coffee"],
+    "bio": "My neighbor in Brooklyn. We have a standing Sunday morning coffee ritual that keeps us both sane.",
+    "goal": 10,
+    "next_due_date": "2025-07-07"
+  },
+  {
+    "id": 7,
+    "name": "Liam O'Connor",
+    "picture": "https://randomuser.me/api/portraits/men/88.jpg",
+    "email": "liam.oconnor@yahoo.com",
+    "days_since_contact": 31,
+    "status": "almost due",
+    "tags": ["family friend", "fishing"],
+    "bio": "Dad's best friend's son. We used to go fishing every summer at the lake house in Maine.",
+    "goal": 30,
+    "next_due_date": "2025-07-05"
+  },
+  {
+    "id": 8,
+    "name": "Aisha Khan",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "aisha.khan@me.com",
+    "days_since_contact": 5,
+    "status": "almost due",
+    "tags": ["book club", "close friend"],
+    "bio": "Joined the same book club three years ago. We've read over 40 books together and share everything.",
+    "goal": 7,
+    "next_due_date": "2025-07-08"
+  },
+  {
+    "id": 9,
+    "name": "Diego Morales",
+    "picture": "https://randomuser.me/api/portraits/men/12.jpg",
+    "email": "diego.morales@live.com",
+    "days_since_contact": 16,
+    "status": "almost due",
+    "tags": ["soccer", "high school"],
+    "bio": "Played on the same high school soccer team. Still catch local matches together whenever possible.",
+    "goal": 14,
+    "next_due_date": "2025-07-04"
+  },
+  {
+    "id": 10,
+    "name": "Mei Lin",
+    "picture": "https://randomuser.me/api/portraits/women/51.jpg",
+    "email": "mei.lin123@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["yoga", "coworker"],
+    "bio": "We met at the company yoga class. Now we go to the same studio and grab smoothies after.",
+    "goal": 5,
+    "next_due_date": "2025-07-09"
+  }
+]
