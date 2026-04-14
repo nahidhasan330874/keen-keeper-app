@@ -23,20 +23,20 @@ const Banner = () => {
   ];
 
   return (
-    <div className="container mx-auto">
-      <div className=" m-20 text-center  space-y-8">
+    <div className="container mx-auto mt-30">
+      <div className="m-16 text-center  space-y-4">
         <h2 className="text-5xl font-bold">Friends to keep close in your life</h2>
         <p className="text-[#64748B]">
           Your personal shelf of meaningful connections. Browse, tend, and
           nurture <br /> the relationships that matter most.
         </p>
 
-         <button className="btn bg-[#244D3F]  text-white"><MdAdd />  Add a Friend</button>
+         <button className="btn bg-[#244D3F]  text-white shadow-xl"><MdAdd />  Add a Friend</button>
       </div>
 
     
 
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-10 border-b border-[#E9E9E9] mb-10 ">
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pb-10 border-b border-[#E9E9E9] mb-0 ">
       {stats.map((item, index) => (
           <div
           key={index}
@@ -48,7 +48,7 @@ const Banner = () => {
       ))}
     </div>
 
-      <FriendsPage></FriendsPage>
+      <FriendsPage ></FriendsPage>
     
 </div>
   
