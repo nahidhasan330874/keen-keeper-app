@@ -1,11 +1,12 @@
-import React from 'react';
+ 
+const TimeLinePage = () => {
+  
 
-const  TimeLinePage = () => {
-    return (
-        <div>
-            <h2>This is a time line page </h2>
-        </div>
-    );
+  return (
+    <div  className="container mx-auto bg-gray-100 py-1 m-30">
+           Not found THis page 
+    </div>
+  );
 };
 
-export default  TimeLinePage;
+export default TimeLinePage;

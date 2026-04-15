@@ -15,8 +15,9 @@ export default function Clock() {
       setTime(bdTime);
     });
 
-    // return () => clearInterval(interval);
-  }, []);
+    
+  }
+);
 
   return <p>{time}</p>;
 }

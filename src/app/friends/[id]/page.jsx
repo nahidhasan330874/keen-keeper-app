@@ -1,14 +1,11 @@
 import Clock from "@/components/clock/Clock";
+import FriendsUploadBtn from "@/components/friendsbtn/FriendsUploadBtn";
 import Image from "next/image";
-
 import React from "react";
-import { FaVideo } from "react-icons/fa";
-import { FaBoxArchive } from "react-icons/fa6";
-import { IoIosText } from "react-icons/io";
-import { MdCall } from "react-icons/md";
+ import { FaBoxArchive } from "react-icons/fa6";
 import { RiDeleteBin6Fill, RiNotificationSnoozeFill } from "react-icons/ri";
 
-const friendPromise = async function () {
+const friendPromise = async () => {
   const time = new Date().toLocaleString("en-US", {
     timeZone: "Asia/Dhaka",
   });
@@ -32,6 +29,8 @@ const friendsDetailsPage = async ({ params }) => {
         return "bg-[#EFAD44]";
     }
   };
+ 
+  
 
   return (
     <div className="min-h-screen bg-gray-100 pt-10 ">
@@ -156,30 +155,7 @@ const friendsDetailsPage = async ({ params }) => {
               <h3 className="font-semibold text-lg mb-4 text-[#244D3F]">
                 Quick Check-In
               </h3>
-              <div className="grid grid-cols-3 gap-4">
-                <button className="btn btn-outline  flex border-gray-200 items-center shadow-xl gap-2 p-5 hover:bg-[#244D3F] hover:text-white group">
-                  <span className="text-lg">
-                    {" "}
-                    <MdCall />{" "}
-                  </span>
-                  <span> Call</span>
-                </button>
-
-                <button className="btn btn-outline flex justify-center text-center border-gray-200   shadow-xl gap-2 p-5 hover:bg-[#244D3F] hover:text-white ">
-                  <span className="text-lg">
-                    <IoIosText />
-                  </span>
-                  <span>text</span>
-                </button>
-
-                <button className="btn btn-outline flex border-gray-200   items-center shadow-xl gap-2 p-5 hover:bg-[#244D3F] hover:text-white group">
-                  <span className="text-lg">
-                    {" "}
-                    <FaVideo />{" "}
-                  </span>
-                  <span>Video</span>
-                </button>
-              </div>
+                  <FriendsUploadBtn></FriendsUploadBtn>
             </div>
           </div>
         </div>
