@@ -1,31 +1,35 @@
- "use client";
+"use client";
 
 import { MdCall } from "react-icons/md";
 import { IoIosText } from "react-icons/io";
 import { FaVideo } from "react-icons/fa";
+import { toast } from "react-toastify";
+import { useContext } from "react";
+import FriendContext from "@/context/FriendContext";
 
-export default function FriendsUploadBtn() {
+export default function FriendsUploadBtn({ friend }) {
 
-   const handleClick = (type) => {
-       alert(`${type} added to timeline `);
-       console.log("click")
+  const { addTimeline } = useContext(FriendContext);
+
+  const handleClick = (type) => {
+    addTimeline(type, friend); 
+
+    toast.success(`${type} added to timeline`);
   };
 
   return (
     <div className="grid grid-cols-3 gap-4">
-
-      <button onClick={() => handleClick("call")} className="btn btn-outline p-5">
+      <button onClick={() => handleClick("call")} className="btn btn-outline">
         <MdCall /> Call
       </button>
 
-      <button onClick={() => handleClick("text")} className="btn btn-outline p-5">
+      <button onClick={() => handleClick("text")} className="btn btn-outline">
         <IoIosText /> Text
       </button>
 
-      <button onClick={() => handleClick("video")} className="btn btn-outline p-5">
+      <button onClick={() => handleClick("video")} className="btn btn-outline">
         <FaVideo /> Video
       </button>
-
     </div>
   );
 }

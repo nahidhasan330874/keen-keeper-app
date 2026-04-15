@@ -155,7 +155,7 @@ const friendsDetailsPage = async ({ params }) => {
               <h3 className="font-semibold text-lg mb-4 text-[#244D3F]">
                 Quick Check-In
               </h3>
-                  <FriendsUploadBtn></FriendsUploadBtn>
+                  <FriendsUploadBtn friend={friend}></FriendsUploadBtn>
             </div>
           </div>
         </div>
