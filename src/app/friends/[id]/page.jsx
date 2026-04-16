@@ -14,6 +14,16 @@ const friendPromise = async () => {
   return data;
 };
 
+export async function generateMetadata({params}){
+     const friends = await friendPromise();
+     const { id } = await params;
+     const friend = friends.find((e) => e.id === parseInt(id));
+   return {
+       title:`${friend.name} | Keen keeper`,
+       description:friend.bio,
+   }
+}
+
 const friendsDetailsPage = async ({ params }) => {
   const friends = await friendPromise();
   const { id } = await params;
