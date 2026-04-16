@@ -16,7 +16,7 @@ export default function FriendsUploadBtn({ friend }) {
   };
 
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 md:grid-cols-3  gap-4">
       <button onClick={() => handleClick("call")} className="btn btn-outline border-gray-300 text-xl py-8 hover:bg-[#244D3F] hover:text-white shadow-2xl">
        <span className="text-2xl"><MdCall /></span>
          Call

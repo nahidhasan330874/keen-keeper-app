@@ -37,7 +37,7 @@ export default function TimelinePage() {
       <div className="space-y-4">
         {filteredData.length === 0 ? (
           <p className="flex justify-center  items-center text-4xl font-bold p-20 m-20">
-            No activity yet
+            Not Found
           </p>
         ) : (
           filteredData.map((item) => (
@@ -49,7 +49,7 @@ export default function TimelinePage() {
 
               <div>
                 <p className="font-semibold">
-                  <span className="text-[#244D3F] capitalize">{item.type}</span>
+                  <span className="text-[#244D3F] capitalize">{item.type} </span>
                   <span className="text-gray-500 text-sm">
                     with {item.name}
                   </span>

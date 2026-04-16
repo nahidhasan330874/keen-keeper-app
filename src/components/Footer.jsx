@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="footer footer-horizontal footer-center bg-[#244D3F] text-primary-content p-10">
-        <aside>
+        <aside className="mt-10">
           <Image src={LogoImg} alt="keen keeper" width={300} height={300} />
           <p className="">
             Your personal shelf of meaningful connections. Browse, tend, and
